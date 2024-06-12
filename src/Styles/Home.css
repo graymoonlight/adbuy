@@ -1,0 +1,130 @@
+.home {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .hero-slide {
+    position: relative;
+  }
+  
+  .hero {
+    position: relative;
+    padding: 50px 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .hero-image {
+    width: 100%;
+    height: auto;
+    max-height: 600px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .hero h2 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  
+  .hero p {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.2rem;
+    margin: 20px 0;
+  }
+  
+  .cta-button {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #61dafb;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #21a1f1;
+  }
+  
+  .portfolio {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  }
+  
+  .portfolio h3 {
+    color: #343a40;
+    margin-bottom: 20px;
+  }
+  
+  .portfolio-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .portfolio-item {
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    text-align: left;
+    width: 150px;
+  }
+  
+  .portfolio-item img {
+    width: 100%;
+    border-radius: 4px;
+  }
+  
+  .portfolio-item p {
+    color: #495057;
+    font-size: 0.9rem;
+    margin: 10px 0 0;
+  }
+  
+  .comments {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .comments h3 {
+    color: #343a40;
+    margin-bottom: 20px;
+  }
+  
+  .comment {
+    background: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .comment p {
+    color: #495057;
+    font-size: 1rem;
+    margin: 5px 0;
+  }

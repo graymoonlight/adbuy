@@ -1,0 +1,108 @@
+@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick-theme.css";
+
+.App {
+  position: relative;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.background-image-left,
+.background-image-right {
+  position: absolute;
+  top: 0;
+  width: 600px; /* Ширина фоновых изображений */
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.5; /* Добавим прозрачность для отладки */
+}
+
+.background-image-left {
+  left: 0;
+  background-color:#61dafb;
+}
+
+.background-image-right {
+  right: 0;
+  background-color:#61dafb;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  width: 80%;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.home, .services, .contact, .login, .register, .dashboard {
+  padding: 20px;
+}
+
+.home h2, .services h2, .contact h2, .login h2, .register h2, .dashboard h2 {
+  color: #343a40;
+}
+
+.services ul, .contact p, .login form, .register form, .dashboard p {
+  color: #495057;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.services ul {
+  list-style: none;
+  padding: 0;
+}
+
+.services ul li {
+  background: #f1f3f5;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+.services ul li:hover {
+  background: #e9ecef;
+}
+
+.login form div, .register form div {
+  margin-bottom: 15px;
+}
+
+.login form label, .register form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.login form input, .register form input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+.login form button, .register form button {
+  padding: 10px 20px;
+  background: #343a40;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login form button:hover, .register form button:hover {
+  background: #495057;
+}
